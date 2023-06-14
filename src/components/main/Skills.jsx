@@ -3,8 +3,8 @@ import React from 'react';
 const Skills = () => {
   return (
       <section id={'skills'} className={'section'}>
-        <h2>My Skills</h2>
-        <p>Skills & Attributes</p>
+        <h2 className={'title'}>My Skills</h2>
+        <p className={'description'}>Skills & Attributes</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam at consectetur deleniti, iusto nemo
           reprehenderit? Aspernatur ipsam quasi quidem similique? Nisi porro quo sed similique voluptatem! Libero, non

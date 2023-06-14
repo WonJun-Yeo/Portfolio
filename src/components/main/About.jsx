@@ -5,8 +5,8 @@ import {faJava, faReact} from "@fortawesome/free-brands-svg-icons";
 const About = () => {
   return (
       <section id={'about'} className={'section'}>
-        <h2>About me</h2>
-        <p>
+        <h2 className={'title'}>About me</h2>
+        <p className={'description'}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam error ex ipsa iusto maiores
           molestiae necessitatibus omnis, perferendis, possimus quaerat quam rem sed. Alias eaque facere incidunt nulla
           quaerat?

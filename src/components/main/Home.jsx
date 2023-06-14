@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/home.css'
+import '../../styles/main/home.css'
 import profile from '../../assets/images/profile.png';
 
 const Home = () => {

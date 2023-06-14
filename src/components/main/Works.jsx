@@ -3,8 +3,8 @@ import React from 'react';
 const Works = () => {
   return (
       <section id={'works'} className={'section'}>
-        <h2>My Works</h2>
-        <p>Projects</p>
+        <h2 className={'title'}>My Works</h2>
+        <p className={'description'}>Projects</p>
         <ul>
           <li>
             <button>All <span>8</span></button>
