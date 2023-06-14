@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/main/works.css';
+import test_image from '../../assets/images/test_image.jpg';
 
 const Works = () => {
   return (
@@ -18,52 +19,107 @@ const Works = () => {
               <button className={'category'}>Back-end <span className={'category_count'}>3</span></button>
             </li>
           </ul>
-          <ul>
-            <li>
+          <ul className={'projects'}>
+            <li className={'project'}>
               <a href="#" target={'_blank'}>
-                <img src="" alt="project1_img"/>
-                <div>
-                  <h3>Project #1</h3>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
                   <p>Clone Coding with HTML, CSS</p>
                 </div>
               </a>
             </li>
-            <li>
+            <li className={'project'}>
               <a href="#" target={'_blank'}>
-                <img src="" alt="project1_img"/>
-                <div>
-                  <h3>Project #1</h3>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
                   <p>Clone Coding with HTML, CSS</p>
                 </div>
               </a>
             </li>
-            <li>
+            <li className={'project'}>
               <a href="#" target={'_blank'}>
-                <img src="" alt="project1_img"/>
-                <div>
-                  <h3>Project #1</h3>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
                   <p>Clone Coding with HTML, CSS</p>
                 </div>
               </a>
             </li>
-            <li>
+            <li className={'project'}>
               <a href="#" target={'_blank'}>
-                <img src="" alt="project1_img"/>
-                <div>
-                  <h3>Project #1</h3>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
                   <p>Clone Coding with HTML, CSS</p>
                 </div>
               </a>
             </li>
-            <li>
+            <li className={'project'}>
               <a href="#" target={'_blank'}>
-                <img src="" alt="project1_img"/>
-                <div>
-                  <h3>Project #1</h3>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
                   <p>Clone Coding with HTML, CSS</p>
                 </div>
               </a>
             </li>
+            <li className={'project'}>
+              <a href="#" target={'_blank'}>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li className={'project'}>
+              <a href="#" target={'_blank'}>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li className={'project'}>
+              <a href="#" target={'_blank'}>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li className={'project'}>
+              <a href="#" target={'_blank'}>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li className={'project'}>
+              <a href="#" target={'_blank'}>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li className={'project'}>
+              <a href="#" target={'_blank'}>
+                <img src={test_image} alt="project1_img" className={'project_image'}/>
+                <div className={'project_metadata'}>
+                  <h3 className={'project_title'}>Project #1</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+
           </ul>
         </div>
       </section>
