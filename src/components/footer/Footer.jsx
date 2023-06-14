@@ -1,7 +1,7 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import Contact from "./main/Contact";
+import Contact from "./Contact";
 
 const Footer = () => {
   return (
