@@ -42,6 +42,12 @@
   margin-bottom: 1rem;
 }
 
+.job_image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
 .job_name {
   color: var(--color-primary);
 }

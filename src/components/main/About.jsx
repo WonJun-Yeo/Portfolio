@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/main/about.css';
+import test_image from '../../assets/images/test_image.jpg';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faJava, faReact} from "@fortawesome/free-brands-svg-icons";
 
@@ -32,14 +33,14 @@ const About = () => {
         <ul className={'jobs'}>
           {/*학교 단체, 이력*/}
           <li className={'job'}>
-            <img src="" alt=""/>
+            <img src={test_image} alt="" className={'job_image'}/>
             <div>
               <p className={'job_name'}>Google as Senior Software Engineer</p>
               <p className={'job_period'}>2019 Oct - Until now</p>
             </div>
           </li>
           <li className={'job'}>
-            <img src="" alt=""/>
+            <img src={test_image} alt="" className={'job_image'}/>
             <div>
               <p className={'job_name'}>Google as Senior Software Engineer</p>
               <p className={'job_period'}>2019 Oct - Until now</p>
