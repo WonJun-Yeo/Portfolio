@@ -5,6 +5,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Works from "./Works";
 import UpToTop from "./UpToTop";
+import Testimonial from "./Testimonial";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
         <About/>
         <Skills/>
         <Works/>
+        <Testimonial />
         <UpToTop/>
       </>
   );

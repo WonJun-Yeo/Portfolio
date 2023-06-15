@@ -13,8 +13,9 @@ const Header = () => {
           <ul className={'header_menu'}>
             <li><a className={'header_menu_item active'} href="#home">Home</a></li>
             <li><a className={'header_menu_item'} href="#about">About</a></li>
-            <li><a className={'header_menu_item'} href="#skiils">Skills</a></li>
+            <li><a className={'header_menu_item'} href="#skills">Skills</a></li>
             <li><a className={'header_menu_item'} href="#works">Works</a></li>
+            <li><a className={'header_menu_item'} href="#testimonial">Testimonial</a></li>
             <li><a className={'header_menu_item'} href="#contact">Contact</a></li>
           </ul>
         </nav>
