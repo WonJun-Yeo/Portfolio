@@ -3,6 +3,13 @@ import '../styles/header.css';
 import logo from '../assets/images/favicon.ico';
 
 const Header = () => {
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.header');
+    const headerHeight = header.getBoundingClientRect().height;
+    window.scrollY > headerHeight? header.classList.add('header_dark')
+        : header.classList.remove('header_dark');
+  });
+
   return (
       <header className={'header'}>
         <div className={'header_logo'}>
