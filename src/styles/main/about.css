@@ -56,3 +56,18 @@
   font-size: 0.8rem;
   color: var(--color-primary);
 }
+
+@media screen and (max-width: 768px) {
+  .majors {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .major {
+    max-width: 25rem;
+  }
+
+  .job {
+    justify-content: center;
+  }
+}

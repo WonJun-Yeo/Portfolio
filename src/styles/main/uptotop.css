@@ -11,3 +11,13 @@
   background-color: var(--color-primary);
   box-shadow: 5px 5px 0px 0px var(--color-accent);
 }
+
+@media screen and (max-width: 768px) {
+  .arrow-up {
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}

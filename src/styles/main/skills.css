@@ -56,3 +56,9 @@
   height: 3px;
   background-color: var(--color-accent);
 }
+
+@media screen and (max-width: 768px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+}

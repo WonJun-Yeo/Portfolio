@@ -96,3 +96,17 @@
   height: 2px;
   background-color: var(--color-accent);
 }
+
+@media screen and (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+  }
+
+  .category {
+    width: 100%;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
