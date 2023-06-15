@@ -26,7 +26,7 @@ const Header = () => {
       <header className={'header'}>
         <div className={'header_logo'}>
           <img src={logo} alt="logo" className={'header_logo_img'}/>
-          <h1 className={'header_logo_title'}><a href="#">WonJun</a></h1>
+          <h1 className={'header_logo_title'}><a href="/#">WonJun</a></h1>
         </div>
         <nav className={'header_nav'}>
           <ul className={activeNav ? 'header_menu open' : 'header_menu'}>
