@@ -1,13 +1,14 @@
 import React from 'react';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import '../../styles/footer/footer.css'
 import Contact from "./Contact";
 
 const Footer = () => {
   return (
-      <footer>
-        <Contact />
-        <p>RubisCo - All rights reserved</p>
+      <footer id={'footer'}>
+        <div className={'max_container'}>
+          <Contact />
+          <p>RubisCo - All rights reserved</p>
+        </div>
       </footer>
   );
 };
