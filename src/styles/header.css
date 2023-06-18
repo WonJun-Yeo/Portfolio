@@ -46,11 +46,6 @@
   border-bottom: 1px solid var(--color-accent);
 }
 
-.header_menu_item.active {
-  border: 1px solid var(--color-accent);
-  border-radius: 4px;
-}
-
 .header_toggle {
   display: none;
   position: absolute;

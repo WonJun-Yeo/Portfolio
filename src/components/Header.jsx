@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         <nav className={'header_nav'}>
           <ul className={activeNav ? 'header_menu open' : 'header_menu'}>
-            <li onClick={handleOnClickMenu}><a className={'header_menu_item active'} href="#home">Home</a></li>
+            <li onClick={handleOnClickMenu}><a className={'header_menu_item'} href="#home">Home</a></li>
             <li onClick={handleOnClickMenu}><a className={'header_menu_item'} href="#about">About</a></li>
             <li onClick={handleOnClickMenu}><a className={'header_menu_item'} href="#skills">Skills</a></li>
             <li onClick={handleOnClickMenu}><a className={'header_menu_item'} href="#works">Works</a></li>
