@@ -68,6 +68,8 @@
 
 .project_image {
   width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .project_metadata {
@@ -101,6 +103,11 @@
   width: 50px;
   height: 2px;
   background-color: var(--color-accent);
+}
+
+.project_stack {
+  font-size: 0.6rem;
+  line-height: 4rem;
 }
 
 @media screen and (max-width: 768px) {
