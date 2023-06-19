@@ -81,7 +81,6 @@
   fill: #1B1E26;
 }
 
-
 @media screen and (max-width: 768px) {
   .majors {
     flex-direction: column;

@@ -26,7 +26,7 @@ const Home = () => {
                       }}
               />
               다하는 <br/> 원준 입니다.</h2>
-            <p className={'home_description'}>Hello나는 무슨 소프트웨어 엔지니어 입니다.</p>
+            <p className={'home_description'}>결국은 풀스택 <br/> 앞, 뒤 가리지 않는 저를 소개합니다!</p>
             <a href="#footer" className={'home_contact'}>Contact Me</a>
           </div>
         </div>
