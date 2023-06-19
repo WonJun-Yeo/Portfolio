@@ -19,7 +19,7 @@ const About = () => {
             <li className={'major'}>
               <FontAwesomeIcon icon={faReact} className={'major_icon'}/>
               <p className={'major_title'}>Front-end</p>
-              <p>HTML, CSS, TS, JQuery, React</p>
+              <p>HTML, CSS, SCSS, TS, JQuery, React</p>
             </li>
             <li className={'major'}>
               <FontAwesomeIcon icon={faJava} className={'major_icon'}/>
@@ -28,7 +28,6 @@ const About = () => {
             </li>
           </ul>
           <ul className={'jobs'}>
-            {/*학교 단체, 이력*/}
             <li className={'job'}>
               <img src={school} alt="" className={'job_image'}/>
               <div>
