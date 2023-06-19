@@ -2,20 +2,28 @@
   position: relative;
   background-color: var(--color-primary);
   background: var(--home-gradient);
-  background-image: var(--home-svg);
+  background-image: var(--home-bgc-svg);
   background-attachment: fixed;
   background-size: cover;
   color: var(--color-text);
   padding: 7rem 1rem 5rem 1rem;
   text-align: center;
+  overflow: hidden;
+}
+
+.home_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
 }
 
 .home_avatar {
-  width: 250px;
-  height: 250px;
+  position: relative;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
-  border: 3px solid var(--color-accent);
-  border-radius: 100%;
+  background: var(--home-avartar-svg);
 }
 
 .home_title {
