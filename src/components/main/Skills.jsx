@@ -12,24 +12,28 @@ const Skills = () => {
               <h3 className={'skills_title'}>Coding Skills</h3>
               <ul>
                 <li className={'bar'}>
-                  <div className={'bar_metadata'}><span>HTML</span><span>98%</span></div>
-                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '98%'}}></div></div>
+                  <div className={'bar_metadata'}><span>HTML</span><span>90%</span></div>
+                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '90%'}}></div></div>
                 </li>
                 <li className={'bar'}>
-                  <div className={'bar_metadata'}><span>HTML</span><span>98%</span></div>
-                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '98%'}}></div></div>
+                  <div className={'bar_metadata'}><span>CSS</span><span>82%</span></div>
+                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '82%'}}></div></div>
                 </li>
                 <li className={'bar'}>
-                  <div className={'bar_metadata'}><span>HTML</span><span>98%</span></div>
-                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '98%'}}></div></div>
+                  <div className={'bar_metadata'}><span>React</span><span>74%</span></div>
+                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '74%'}}></div></div>
                 </li>
                 <li className={'bar'}>
-                  <div className={'bar_metadata'}><span>HTML</span><span>98%</span></div>
-                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '98%'}}></div></div>
+                  <div className={'bar_metadata'}><span>JAVA</span><span>81%</span></div>
+                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '81%'}}></div></div>
                 </li>
                 <li className={'bar'}>
-                  <div className={'bar_metadata'}><span>HTML</span><span>98%</span></div>
-                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '98%'}}></div></div>
+                  <div className={'bar_metadata'}><span>JSP</span><span>75%</span></div>
+                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '75%'}}></div></div>
+                </li>
+                <li className={'bar'}>
+                  <div className={'bar_metadata'}><span>Spring</span><span>70%</span></div>
+                  <div className={'bar_bg'}><div className={'bar_value'} style={{width: '70%'}}></div></div>
                 </li>
               </ul>
             </section>
@@ -37,15 +41,19 @@ const Skills = () => {
               <h3 className={'skills_title'}>Tools</h3>
               <ul>
                 <li>IntelliJ</li>
+                <li>Eclipse</li>
                 <li>Visual Studio Code</li>
+                <li>Slack</li>
+                <li>Notion</li>
+                <li>Confluence</li>
+                <li>Figma</li>
               </ul>
             </section>
             <section className={'skills_etc'}>
               <h3 className={'skills_title'}>Etc</h3>
               <ul>
                 <li>Git</li>
-                <li>Scrum Master</li>
-                <li>Math</li>
+                <li>Insomnia</li>
               </ul>
             </section>
           </div>
