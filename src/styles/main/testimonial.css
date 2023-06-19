@@ -14,16 +14,19 @@
 }
 
 .testimonial_image {
-  width: 150px;
+  width: 100px;
   height: 150px;
   border-radius: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  object-fit: cover;
 }
 
 .testimonial_bubble {
+  width: 100%;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  line-height: 2rem;
 }
 
 .testimonial_bubble_name {

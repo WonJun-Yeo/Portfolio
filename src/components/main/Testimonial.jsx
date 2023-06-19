@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../styles/main/testimonial.css';
-import test_image from '../../assets/images/test_image.jpg';
+import people1 from '../../assets/images/people1.jpg';
+import people2 from '../../assets/images/people2.jpg';
+import people3 from '../../assets/images/people3.jpg';
 
 const Testimonial = () => {
   return (
@@ -9,24 +11,24 @@ const Testimonial = () => {
         <p className={'description'}>See What they say about me</p>
         <ul className={'testimonials'}>
           <li className={'testimonial'}>
-            <img src={test_image} alt="people1"  className={'testimonial_image'}/>
+            <img src={people1} alt="people1" className={'testimonial_image'}/>
             <div className={'testimonial_bubble'}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque dolorum, eligendi et facere ipsa ipsam nihil quaerat, quas quos rerum sed suscipit vitae? Commodi dolores maxime possimus quis vitae.</p>
-              <p><span className={'testimonial_bubble_name'}>James Kim</span> /Google</p>
+              <p>맡은 바를 대충하지 않고 있는 힘껏 하는 사람이에요!</p>
+              <p><span className={'testimonial_bubble_name'}>James Kim</span> /SK Bioscience</p>
             </div>
           </li>
           <li className={'testimonial'}>
-            <img src={test_image} alt="people2"  className={'testimonial_image'}/>
+            <img src={people2} alt="people2" className={'testimonial_image'}/>
             <div className={'testimonial_bubble'}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque dolorum, eligendi et facere ipsa ipsam nihil quaerat, quas quos rerum sed suscipit vitae? Commodi dolores maxime possimus quis vitae.</p>
-              <p><span className={'testimonial_bubble_name'}>James Kim</span> /Google</p>
+              <p>제한된 시간안에 계획성 있게 일을 처리하는 사람이에요!</p>
+              <p><span className={'testimonial_bubble_name'}>James Kim</span> /동물세포실증지원센터</p>
             </div>
           </li>
           <li className={'testimonial'}>
-            <img src={test_image} alt="people3"  className={'testimonial_image'}/>
+            <img src={people3} alt="people3" className={'testimonial_image'}/>
             <div className={'testimonial_bubble'}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque dolorum, eligendi et facere ipsa ipsam nihil quaerat, quas quos rerum sed suscipit vitae? Commodi dolores maxime possimus quis vitae.</p>
-              <p><span className={'testimonial_bubble_name'}>James Kim</span> /Google</p>
+              <p>이슈 해결에 있어서 창의적으로 접근하는 사람이에요!</p>
+              <p><span className={'testimonial_bubble_name'}>James Kim</span> /NEXTREE</p>
             </div>
           </li>
         </ul>

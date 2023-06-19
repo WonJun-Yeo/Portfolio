@@ -7,11 +7,6 @@ const Skills = () => {
         <div className={'max_container'}>
           <h2 className={'title'}>My Skills</h2>
           <p className={'description'}>Skills & Attributes</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam at consectetur deleniti, iusto nemo
-            reprehenderit? Aspernatur ipsam quasi quidem similique? Nisi porro quo sed similique voluptatem! Libero, non
-            quas.
-          </p>
           <div className={'skills'}>
             <section className={'skills_coding'}>
               <h3 className={'skills_title'}>Coding Skills</h3>
