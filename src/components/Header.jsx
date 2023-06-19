@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../styles/header.css';
-import logo from '../assets/images/favicon.ico';
+import headerLogo from '../assets/images/header_icon.png';
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -25,8 +25,7 @@ const Header = () => {
   return (
       <header className={'header'}>
         <div className={'header_logo'}>
-          <img src={logo} alt="logo" className={'header_logo_img'}/>
-          <h1 className={'header_logo_title'}><a href="/#">WonJun</a></h1>
+          <a href="/#"><img src={headerLogo} alt="logo" className={'header_logo_img'}/></a>
         </div>
         <nav className={'header_nav'}>
           <ul className={activeNav ? 'header_menu open' : 'header_menu'}>
