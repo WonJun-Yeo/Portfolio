@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/main/about.css';
-import test_image from '../../assets/images/test_image.jpg';
+import school from '../../assets/images/school.png';
+import company from '../../assets/images/company.png';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faJava, faReact} from "@fortawesome/free-brands-svg-icons";
 
@@ -11,42 +12,35 @@ const About = () => {
 
           <h2 className={'title'}>About me</h2>
           <p className={'description'}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam error ex ipsa iusto maiores
-            molestiae necessitatibus omnis, perferendis, possimus quaerat quam rem sed. Alias eaque facere incidunt
-            nulla
-            quaerat?
+            I think "basic" is important <br/>
+            It's the basics to learn, to work.
           </p>
           <ul className={'majors'}>
             <li className={'major'}>
               <FontAwesomeIcon icon={faReact} className={'major_icon'}/>
               <p className={'major_title'}>Front-end</p>
-              <p>HTML, CSS, TS, React, React Query</p>
-            </li>
-            <li className={'major'}>
-              <FontAwesomeIcon icon={faJava} className={'major_icon'}/>
-              <p className={'major_title'}>Mobile</p>
-              <p>Android, React Native, Kotlin</p>
+              <p>HTML, CSS, TS, JQuery, React</p>
             </li>
             <li className={'major'}>
               <FontAwesomeIcon icon={faJava} className={'major_icon'}/>
               <p className={'major_title'}>Back-end</p>
-              <p>Java, JSP, Spring, Oracle</p>
+              <p>Java, JSP, Spring, RDBMS</p>
             </li>
           </ul>
           <ul className={'jobs'}>
             {/*학교 단체, 이력*/}
             <li className={'job'}>
-              <img src={test_image} alt="" className={'job_image'}/>
+              <img src={school} alt="" className={'job_image'}/>
               <div>
-                <p className={'job_name'}>Google as Senior Software Engineer</p>
-                <p className={'job_period'}>2019 Oct - Until now</p>
+                <p className={'job_name'}>한국소프트웨어인재개발원 - 교육생</p>
+                <p className={'job_period'}>2022 Feb - 2022 Aug.</p>
               </div>
             </li>
             <li className={'job'}>
-              <img src={test_image} alt="" className={'job_image'}/>
+              <img src={company} alt="" className={'job_image'}/>
               <div>
-                <p className={'job_name'}>Google as Senior Software Engineer</p>
-                <p className={'job_period'}>2019 Oct - Until now</p>
+                <p className={'job_name'}>넥스트리 - 선임개발자</p>
+                <p className={'job_period'}>2022 Aug - 2023 Jun.</p>
               </div>
             </li>
           </ul>
