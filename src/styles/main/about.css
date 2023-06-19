@@ -1,3 +1,7 @@
+#about {
+  position: relative;
+}
+
 .majors {
   display: flex;
   justify-content: space-between;
@@ -56,6 +60,27 @@
   font-size: 0.8rem;
   color: var(--color-primary);
 }
+
+.about-divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.about-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.about-divider .shape-fill {
+  fill: #1B1E26;
+}
+
 
 @media screen and (max-width: 768px) {
   .majors {
