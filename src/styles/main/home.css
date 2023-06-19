@@ -1,8 +1,12 @@
 #home {
+  position: relative;
   background-color: var(--color-primary);
+  background: var(--home-gradient);
+  background-image: var(--home-svg);
+  background-attachment: fixed;
+  background-size: cover;
   color: var(--color-text);
-  padding: 5rem 1rem;
-  padding-top: 7rem;
+  padding: 7rem 1rem 5rem 1rem;
   text-align: center;
 }
 
@@ -41,6 +45,28 @@
   background-color: transparent;
   color: var(--color-text);
   outline: 2px solid var(--color-accent);
+}
+
+.home-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.home-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+  transform: rotateY(180deg);
+}
+
+.chome-divider .shape-fill {
+  fill: #B86F6F;
 }
 
 @media screen and (max-width: 768px) {
