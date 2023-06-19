@@ -14,21 +14,21 @@ const Testimonial = () => {
             <img src={people1} alt="people1" className={'testimonial_image'}/>
             <div className={'testimonial_bubble'}>
               <p>맡은 바를 대충하지 않고 있는 힘껏 하는 사람이에요!</p>
-              <p><span className={'testimonial_bubble_name'}>James Kim</span> /SK Bioscience</p>
+              <p><span className={'testimonial_bubble_name'}>김**</span> /SK Bioscience</p>
             </div>
           </li>
           <li className={'testimonial'}>
             <img src={people2} alt="people2" className={'testimonial_image'}/>
             <div className={'testimonial_bubble'}>
               <p>제한된 시간안에 계획성 있게 일을 처리하는 사람이에요!</p>
-              <p><span className={'testimonial_bubble_name'}>James Kim</span> /동물세포실증지원센터</p>
+              <p><span className={'testimonial_bubble_name'}>이**</span> /동물세포실증지원센터</p>
             </div>
           </li>
           <li className={'testimonial'}>
             <img src={people3} alt="people3" className={'testimonial_image'}/>
             <div className={'testimonial_bubble'}>
               <p>이슈 해결에 있어서 창의적으로 접근하는 사람이에요!</p>
-              <p><span className={'testimonial_bubble_name'}>James Kim</span> /NEXTREE</p>
+              <p><span className={'testimonial_bubble_name'}>박**</span> /NEXTREE</p>
             </div>
           </li>
         </ul>
