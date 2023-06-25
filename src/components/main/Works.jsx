@@ -50,7 +50,7 @@ const Works = () => {
           </ul>
           <ul className={'projects'}>
             <li className={'project'} data-type={'front-end'}>
-              <a href="/https://wonjun-yeo.github.io/Personal_Project/" target={'_blank'}>
+              <a href="https://wonjun-yeo.github.io/Personal_Project/" target={'_blank'}>
                 <img src={project1} alt="project1_img" className={'project_image'}/>
                 <div className={'project_metadata'}>
                   <h3 className={'project_title'}>RubisCo Studio</h3>
@@ -60,7 +60,7 @@ const Works = () => {
               </a>
             </li>
             <li className={'project'} data-type={'back-end'}>
-              <a href="/https://github.com/WonJun-Yeo/Personal_Project02" target={'_blank'}>
+              <a href="https://github.com/WonJun-Yeo/Personal_Project02" target={'_blank'}>
                 <img src={project2} alt="project1_img" className={'project_image'}/>
                 <div className={'project_metadata'}>
                   <h3 className={'project_title'}>MySNS</h3>
