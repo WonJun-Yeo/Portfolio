@@ -15,7 +15,7 @@ const Home = () => {
       <section id={'home'}>
         <div className={'max_container home_container'}>
           <img src={profile} alt="WonJun's profile" className={'home_avatar'}/>
-          <div>
+          <div className={'home_wrapper'}>
             <h2 className={'home_title'}>안녕하세요! <br/>저는
               <TypeIt className={'home_title_strong'}
                       element={"strong"}

@@ -26,6 +26,10 @@
   background: var(--home-avartar-svg);
 }
 
+.home_wrapper {
+  width: 100%;
+}
+
 .home_title {
   font-size: 3rem;
   margin-bottom: 1rem;
